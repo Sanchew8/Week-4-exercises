@@ -1,0 +1,33 @@
+body {
+	text-align:center;
+}
+.box {
+	display:100px;
+	height: 200px;
+	width: 400px;
+}
+.red {
+	background-color: pink;
+}
+.pink {
+	background-color: red;
+}
+.navy {
+	background-color: yellow;
+}
+.orange {
+	background-color: green;
+}
+@media only screen and (max-width: 600px) {
+    .pink {
+        display: none;
+    }
+    .navy {
+    	display: none;
+    }
+}
+@media only screen and (min-width: 1000px) {
+	div.box {
+		width: 100%;
+	}
+}
